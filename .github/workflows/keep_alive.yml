@@ -1,0 +1,32 @@
+name: Hourly Streamlit Wake Up
+
+on:
+  schedule:
+    # Run at minute 0 of every hour (e.g., 1:00, 2:00, 3:00...)
+    - cron: '0 * * * *'
+  
+  # Allows you to click the button manually to test it immediately
+  workflow_dispatch:
+
+jobs:
+  check-apps:
+    runs-on: ubuntu-latest
+    
+    # Set a timeout so it doesn't run forever if something gets stuck
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - name: Install Libraries
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run Wake Up Script
+        run: python wake_up.py

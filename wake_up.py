@@ -10,9 +10,19 @@ import time
 # 👇 PASTE YOUR STREAMLIT URLS HERE 👇
 # ==========================================
 URL_LIST = [
-    "https://your-app-one.streamlit.app",
-    "https://your-app-two.streamlit.app",
-    "https://your-cool-project.streamlit.app"
+"https://purchasepred.streamlit.app/",
+"https://empsalarypred.streamlit.app/",
+"https://housingpricepred.streamlit.app/",
+"https://examscorepred.streamlit.app/",
+"https://empchurnpred.streamlit.app/",
+"https://socialmediaaffectpred.streamlit.app/",
+"https://servanttipspred.streamlit.app/",
+"https://secondscarspricepred.streamlit.app/",
+"https://crimedatacatapred.streamlit.app/",
+"https://clothessizepredlogistic.streamlit.app/",
+"https://clothessizepreddecesion.streamlit.app/",
+"https://clothessizepredrandom.streamlit.app/",
+"https://coffeenamepred.streamlit.app/"
 ]
 # ==========================================
 
@@ -68,4 +78,5 @@ def run_all_checks():
     print("--- All checks finished ---")
 
 if __name__ == "__main__":
+
     run_all_checks()

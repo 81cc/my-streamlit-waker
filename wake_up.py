@@ -94,7 +94,7 @@ def process_url_sequentially(url, driver_instance=None):
             
             # Smart Waiting Loop: Check every 5 seconds for 180 seconds
             start_time = time.time()
-            max_wait = 180
+            max_wait = 60
             app_up = False
             
             while time.time() - start_time < max_wait:
@@ -156,3 +156,4 @@ def run_all_checks_sequentially():
 
 if __name__ == "__main__":
     run_all_checks_sequentially()
+

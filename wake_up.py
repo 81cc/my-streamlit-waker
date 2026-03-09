@@ -24,7 +24,8 @@ URL_LIST = [
     "https://clothespricepred.streamlit.app/",
     "https://medicalcostpred.streamlit.app/",
     "https://loanapprvpred.streamlit.app/",
-    "https://marriagetypepred.streamlit.app/"
+    "https://marriagetypepred.streamlit.app/",
+    "https://marriedlifepred.streamlit.app/"
 ]
 # ==========================================
 
@@ -160,6 +161,7 @@ def run_all_checks_sequentially():
 
 if __name__ == "__main__":
     run_all_checks_sequentially()
+
 
 
 

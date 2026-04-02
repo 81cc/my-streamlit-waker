@@ -8,25 +8,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 
 URL_LIST = [
-    "https://purchasepred.streamlit.app/",
-    "https://empsalarypred.streamlit.app/",
-    "https://housingpricepred.streamlit.app/",
-    "https://examscorepred.streamlit.app/",
-    "https://empchurnpred.streamlit.app/",
-    "https://socialmediaaffectpred.streamlit.app/",
-    "https://servanttipspred.streamlit.app/",
-    "https://secondscarspricepred.streamlit.app/",
-    "https://crimedatacatapred.streamlit.app/",
-    "https://clothessizepredlogistic.streamlit.app/",
-    "https://clothessizepreddecesion.streamlit.app/",
-    "https://clothessizepredrandom.streamlit.app/",
-    "https://coffeenamepred.streamlit.app/",
-    "https://clothespricepred.streamlit.app/",
-    "https://medicalcostpred.streamlit.app/",
-    "https://loanapprvpred.streamlit.app/",
-    "https://marriagetypepred.streamlit.app/",
-    "https://marriedlifepred.streamlit.app/",
-    "https://socialmediaplatformpred.streamlit.app/"
+    "https://",
+
 ]
 # ==========================================
 
